@@ -232,9 +232,9 @@ After installation, add to your shell:
 - Fish:
 
   ```fish
-  eval "(try init | string collect)"
+  eval (try init | string collect)
   # or pick a path
-  eval "(try init ~/src/tries | string collect)"
+  eval (try init ~/src/tries | string collect)
   ```
 
 ## Why Ruby?
